@@ -4,7 +4,8 @@
  * Target: PIC16F18345
  * Compiler: XC8 v2.36
  * IDE: MPLABX v6.00
- *
+ * See github page for details
+ * https://github.com/johnmholmes/Pic16F18345_Journey
  * Created on March 23, 2023, 12:22 PM
  */
 
