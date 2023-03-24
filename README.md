@@ -17,3 +17,14 @@ I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 co
 
 ---------------
 # For this chip I will be using a Pickit 4 to do the programming and only using the Pickit 3 for older chips.
+
+--------------
+# First thoughts was how to setup the use of the interanl oscillator and this is done by.
+
+#pragma config FEXTOSC = OFF    // FEXTOSC External Oscillator mode Selection bits (Oscillator not enabled)
+
+#pragma config RSTOSC = HFINT32 // Power-up default value for COSC bits (HFINTOSC with 2x PLL (32MHz))
+
+#define _XTAL_FREQ 32000000 // Define the oscillator frequency (in Hz)
+
+-------------
