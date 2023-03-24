@@ -14,3 +14,6 @@ To do the basic control of the GPIO pins but this chip is know to have issues wh
 This Chip I have the 20 pin version Dip mounted on a bread board a 14 pin version is also available.
 
 I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 compiler as this is the software I know about.
+
+---------------
+# For this chip I will be using a Pickit 4 to do the programming and only using the Pickit 3 for older chips.
