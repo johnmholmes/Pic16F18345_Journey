@@ -43,7 +43,7 @@
 // Main program
 void main(void)
 {
-    // Configure RC0 as an output pin
+    // Configure RB6 as an output pin
     TRISBbits.TRISB6 = 0;
     
     // Loop forever
