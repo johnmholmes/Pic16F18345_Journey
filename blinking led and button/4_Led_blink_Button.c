@@ -76,7 +76,7 @@ void main() {
     
     __delay_ms(500);      /* wait for ICD before making PGC and PGD outputs  Because the code that Microchip provides to control device programming tools like the PICkit3
                            *is kind of problematic it lets the user application run for a bit. 
-                           *When this happens on a PIC16F676 and the controller sets the GPIO lines used for PGD and PGC 
+                           *When this happens on som Pics and the controller sets the GPIO lines used for PGD and PGC 
                            *to outputs too soon the attempt to program the target device could fail and leave the controller bricked 
                            *in a way that can be hard to recover.*/
     
