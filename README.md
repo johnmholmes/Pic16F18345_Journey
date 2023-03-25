@@ -28,3 +28,5 @@ I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 co
 #define _XTAL_FREQ 32000000 // Define the oscillator frequency (in Hz)
 
 -------------
+# PORT Setting Or LAT setting
+
