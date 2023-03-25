@@ -30,3 +30,10 @@ I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 co
 -------------
 # PORT Setting Or LAT setting
 
+In the context of microcontroller programming, a LAT (Latch) bit and a PORT bit refer to two different ways of accessing a pin's output state. Here are some benefits of using LAT bit over PORT bit:
+
+Faster response time: The response time of a LAT bit is faster compared to PORT bit because there is no read operation involved. This makes it useful in applications where fast response times are crucial, such as in real-time control applications.
+
+Reduced power consumption: Because a LAT bit does not involve a read operation, it consumes less power compared to PORT bit, making it useful in battery-powered devices where power consumption is critical.
+
+For my applications I feel using PORTB = 10100000 or its HEX value is easier to do as its not that time critical.
