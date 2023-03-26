@@ -8,7 +8,7 @@ This is used for me to look back on if i need a reminder of how I did things in 
 
 The codes will change as I implament some of my learning from the Pic16F676 journey as that develops One change will be to use a function for the setup of the Pic.
 
-This codes can be copied and pasted into you MPLAB X IDE projects.
+These codes can be copied and pasted into you MPLAB X IDE projects.
 
 ---------------
 # I have previously covered the Pic16F676
