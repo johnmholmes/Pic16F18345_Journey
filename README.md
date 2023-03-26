@@ -31,6 +31,11 @@ I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 co
 
 #define _XTAL_FREQ 32000000 // Define the oscillator frequency (in Hz)
 
+
+
+
+
+
 -------------
 # PORT Setting Or LAT setting
 
@@ -40,4 +45,4 @@ Faster response time: The response time of a LAT bit is faster compared to PORT 
 
 Reduced power consumption: Because a LAT bit does not involve a read operation, it consumes less power compared to PORT bit, making it useful in battery-powered devices where power consumption is critical.
 
-For my applications I feel using PORTB = 10100000 or its HEX value is easier to do as its not that time critical.
+For my applications I feel using LATBB = 0xFC; 11110000 this has been tested and work so I will now use this method for setting the require Pin state.
