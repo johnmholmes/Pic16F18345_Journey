@@ -6,6 +6,8 @@ This is the start of my learning to use the Pic16F18345 20 pin chip using C it i
  
 This is used for me to look back on if i need a reminder of how I did things in the future.
 
+The codes will change as I implament some of my learning from the Pic16F676 journey as that develops One change will be to use a function for the setup of the Pic.
+
 ---------------
 # I have previously covered the Pic16F676
 
