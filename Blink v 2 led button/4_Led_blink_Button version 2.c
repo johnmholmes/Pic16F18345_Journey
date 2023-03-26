@@ -102,11 +102,12 @@ void main() {
             __delay_ms(100);        // Add a delay to debounce the button
         }
         else{
-            RC0 = 0;                // Set RC0 LOW
-
-            PORTB = 0b01010000;     // Set RB4 & 6 High & RB5 LOW
+            LATCbits.LATC0 = 0;                // Set RC0 LOW
+            LATB = 0x80;
+            //PORTB = 0b01010000;     // Set RB4 & 6 High & RB5 LOW
             __delay_ms(500);        // Delay 500 milliseconds
-            PORTB = 0b00100000;     // Set RB5 High & RB4 & 6 LOW
+            LATB =0x30;
+            //PORTB = 0b00100000;     // Set RB5 High & RB4 & 6 LOW
            __delay_ms(500);
         }
     }
