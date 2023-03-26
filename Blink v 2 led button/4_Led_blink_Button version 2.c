@@ -103,7 +103,7 @@ void main() {
         }
         else{
             LATCbits.LATC0 = 0;                // Set RC0 LOW
-            LATB = 0x80;
+            LATB = 0x50;
             //PORTB = 0b01010000;     // Set RB4 & 6 High & RB5 LOW
             __delay_ms(500);        // Delay 500 milliseconds
             LATB =0x30;
