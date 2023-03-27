@@ -7,6 +7,23 @@
  * See github page for details
  * https://github.com/johnmholmes/Pic16F18345_Journey
  * Created on March 23, 2023, 12:22 PM
+ *
+ *                              PIC16F18345
+ * 
+ *                    +------------:_:------------+
+ *           5V  ->  1 : VDD                   VSS : 20  <- GND
+ *               <>  2 : RA5                   RA0 : 19  <- PGD
+ *               <>  3 : RA4                   RA1 : 18  <- PGC
+ *          MCLR ->  4 : RA3                   RA2 : 17  <> 
+ *               <>  5 : RC5                   RC0 : 16  <> 
+ *               <>  6 : RC4                   RC1 : 15  <> 
+ *               <>  7 : RC3                   RC2 : 14  <> 
+ *               <>  8 : RC6                   RB4 : 13  <> 
+ *               <>  9 : RC7                   RB5 : 12  <> 
+*                <> 10 : RB7                   RB6 : 11  <> LED1
+ *                    +---------------------------:
+ *                               DIP-20
+ *
  */
 
 // Define the configuration bits
