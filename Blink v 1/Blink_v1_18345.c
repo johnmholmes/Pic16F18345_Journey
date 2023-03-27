@@ -6,6 +6,7 @@
  * IDE: MPLABX v6.00
  * See github page for details
  * https://github.com/johnmholmes/Pic16F18345_Journey
+ * Youtube Channel https://www.youtube.com/watch?v=O7069OKVfkY&list=PL2Mz1GBib5Av_d1pUuTq7zQki3rvrgMcg
  * Created on March 23, 2023, 12:22 PM
  *
  *                              PIC16F18345
