@@ -31,6 +31,11 @@ I am programming the Pic using the MPLAB X IDE version 6.00 and using the XC8 co
 
 #define _XTAL_FREQ 32000000 // Define the oscillator frequency (in Hz)
 
+-------------
+# Slowly progressing
+
+I have changed my coding style after learning from other peoples examples. this can be seen in the Blink v2 folder.
+
 
 
 
